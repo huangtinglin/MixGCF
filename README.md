@@ -13,7 +13,7 @@ If you want to use our codes in your research, please cite:
 ```
 @inproceedings{MixGCF2021,
   author    = {Tinglin Huang and
-  			   Yuxiao Dong and
+               Yuxiao Dong and
                Ming Ding and
                Zhen Yang and
                Wenzheng Feng and
