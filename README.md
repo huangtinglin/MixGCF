@@ -48,7 +48,7 @@ The instruction of commands has been clearly stated in the codes (see the parser
 
 #### LightGCN
 
-#####Random sample(rns)
+##### Random sample(rns)
 
 ```
 python main.py --dataset ali --gnn lightgcn --dim 64 --lr 0.001 --batch_size 2048 --gpu_id 0 --context_hops 3 --agg mean --ns rns --K 1 --n_negs 1
@@ -70,7 +70,7 @@ python main.py --dataset amazon --dim 64 --lr 0.001 --batch_size 2048 --gpu_id 0
 
 #### NGCF
 
-#####Random sample(rns)
+##### Random sample(rns)
 
 ```
 python main.py --dataset ali --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1024 --gpu_id 0 --context_hops 3 --agg concat --ns rns --K 1 --n_negs 1
@@ -80,7 +80,7 @@ python main.py --dataset yelp2018 --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1
 python main.py --dataset amazon --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1024 --gpu_id 0 --context_hops 3 --agg concat --ns rns --K 1 --n_negs 1
 ```
 
-#####MixGCF
+##### MixGCF
 
 ```
 python main.py --dataset ali --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1024 --gpu_id 0 --context_hops 3 --agg concat --ns mixgcf --K 1 --n_negs 64
