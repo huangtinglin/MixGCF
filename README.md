@@ -1,4 +1,4 @@
-# MixGCF: An Improved Training Method for Graph NeuralNetwork-based Recommender Systems
+# MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems
 
 This is our PyTorch implementation for the paper:
 
