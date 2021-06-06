@@ -2,7 +2,7 @@
 
 This is our PyTorch implementation for the paper:
 
-> Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang (2021). MixGCF: An Improved Training Method for Graph NeuralNetwork-based Recommender Systems.  [Paper in arXiv](TODO). In KDD'2021, Virtual Event, Singapore, August 14-18, 2021.
+> Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang (2021). MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems.  [Paper in arXiv](TODO). In KDD'2021, Virtual Event, Singapore, August 14-18, 2021.
 
 Author: Mr. Tinglin Huang (tinglin.huang at zju.edu.cn)
 
@@ -90,7 +90,7 @@ python main.py --dataset yelp2018 --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1
 python main.py --dataset amazon --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1024 --gpu_id 0 --context_hops 3 --agg concat --ns mixgcf --K 1 --n_negs 64
 ```
 
-The [training log](https://github.com/huangtinglin/MixGCF/tree/main/training_log) is also provided.
+The [training log](https://github.com/huangtinglin/MixGCF/tree/main/training_log) is also provided. The results fluctuate slightly under different experiment environment.
 
 ## Dataset
 
