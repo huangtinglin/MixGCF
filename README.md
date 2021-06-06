@@ -90,7 +90,7 @@ python main.py --dataset yelp2018 --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1
 python main.py --dataset amazon --gnn ngcf --dim 64 --lr 0.0001 --batch_size 1024 --gpu_id 0 --context_hops 3 --agg concat --ns mixgcf --K 1 --n_negs 64
 ```
 
-The [training log](https://github.com/huangtinglin/MixGCF/tree/main/training_log) is also provided. The results fluctuate slightly under different experiment environment.
+The [training log](https://github.com/huangtinglin/MixGCF/tree/main/training_log) is also provided. The results fluctuate slightly under different running environment.
 
 ## Dataset
 
