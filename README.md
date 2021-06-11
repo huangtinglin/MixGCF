@@ -9,7 +9,7 @@ Author: Mr. Tinglin Huang (tinglin.huang at zju.edu.cn)
 ## Citation 
 
 If you want to use our codes in your research, please cite:
-
+    
 ```
 @inproceedings{MixGCF2021,
   author    = {Tinglin Huang and
@@ -19,7 +19,7 @@ If you want to use our codes in your research, please cite:
                Wenzheng Feng and
                Xinyu Wang and
                Jie Tang},
-  title     = {MixGCF: An Improved Training Method for Graph NeuralNetwork-based Recommender Systems},
+  title     = {MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems},
   booktitle = {{KDD}},
   year      = {2021}
 }
