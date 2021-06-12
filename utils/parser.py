@@ -8,7 +8,7 @@ def parse_args():
     parser.add_argument("--dataset", nargs="?", default="amazon",
                         help="Choose a dataset:[amazon,yelp2018,ali]")
     parser.add_argument(
-        "--data_path", nargs="?", default="/data/tlhuang/ns_dataset/", help="Input data path."
+        "--data_path", nargs="?", default="data/", help="Input data path."
     )
 
     # ===== train ===== # 
