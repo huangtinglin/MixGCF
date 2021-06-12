@@ -2,14 +2,14 @@
 
 This is our PyTorch implementation for the paper:
 
-> Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang (2021). MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems.  [Paper in arXiv](TODO). In KDD'2021, Virtual Event, Singapore, August 14-18, 2021.
+> Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang (2021). MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems.  [Paper link](http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Huang-et-al-MixGCF.pdf). In KDD'2021, Virtual Event, Singapore, August 14-18, 2021.
 
 Author: Mr. Tinglin Huang (tinglin.huang at zju.edu.cn)
 
 ## Citation 
 
 If you want to use our codes in your research, please cite:
-    
+​    
 ```
 @inproceedings{MixGCF2021,
   author    = {Tinglin Huang and
