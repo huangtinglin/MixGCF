@@ -93,6 +93,8 @@ def test_one_user(x):
         training_items = train_user_set[u]
     except Exception:
         training_items = []
+
+    global test_user_set
     # user u's items in the test set
     user_pos_test = test_user_set[u]
 
