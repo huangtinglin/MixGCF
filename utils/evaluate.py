@@ -17,6 +17,11 @@ device = torch.device("cuda:0") if args.cuda else torch.device("cpu")
 BATCH_SIZE = args.test_batch_size
 batch_test_flag = args.batch_test_flag
 
+n_users = 0
+n_items = 0
+train_user_set = dict()
+test_user_set = dict()
+valid_user_set = dict()
 
 def ranklist_by_heapq(user_pos_test, test_items, rating, Ks):
     item_score = {}
